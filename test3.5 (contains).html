@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<div class="content-table">
+    <ul class="stars-list">
+        <li class="star">О сириусе</li>
+        <li class="star">Об альдебаране</li>
+        <li class="contact">Обратная связь</li>
+    </ul>
+</div>
+
+<script>
+    let div = document.querySelector("div.content-table");
+    let ul = document.querySelector("ul.stars-list");
+
+    // contains
+    if (div.contains(ul))
+        console.log("ul внутри div");
+</script>
+
+</body>
+</html>

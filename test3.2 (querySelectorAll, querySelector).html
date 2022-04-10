@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<ul>
+    <li>Солнце</li>
+    <li>Меркурий</li>
+    <li>Венера</li>
+    <li>Земля</li>
+    <li>Марс</li>
+</ul>
+<ol>
+    <li>Сириус</li>
+    <li>Альдебаран</li>
+    <li>Карелла</li>
+    <li>Ригель</li>
+</ol>
+
+<script>
+    let list = document.querySelectorAll("ul > li");
+    for (let val of list) {
+        console.log(val);
+    }
+
+    console.log("...")
+
+    let el = document.querySelector("ol > li");
+    console.log(el);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<h1>Солнечная система</h1>
+<ul>
+    <li>Солнце</li>
+    <li>Меркурий</li>
+    <li>Венера</li>
+    <li>Земля</li>
+</ul>
+
+<script>
+    let list = document.querySelector("ul");
+
+    // insertAdjacentText
+    list.insertAdjacentText("beforebegin", "<p>Список планет");
+
+    let el = document.createElement("li");
+    el.innerHTML = "<b>Солнце</b>";
+
+    // insertAdjacentElement
+    list.insertAdjacentElement("afterbegin", el);
+
+</script>
+</body>
+</html>

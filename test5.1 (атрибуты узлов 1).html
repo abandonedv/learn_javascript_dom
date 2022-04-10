@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<div id="comm">Сообщения от пользователей</div>
+<script>
+    let div = document.getElementById("comm");
+
+    div.myStyle = {
+        color: "red",
+        fontSize: 18
+    };
+
+    div.getFontSize = function () {
+        return this.myStyle.fontSize;
+    }
+
+    console.log(div.getFontSize());
+</script>
+</body>
+</html>

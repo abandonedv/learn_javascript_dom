@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<h1>Солнечная система</h1>
+<ul>
+    <li>Солнце</li>
+    <li>Меркурий</li>
+    <li>Венера</li>
+    <li>Земля</li>
+</ul>
+
+<script>
+    let list = document.querySelector("ul");
+
+    // before
+    list.before("before");
+
+    // after
+    list.after("after");
+
+    let li_1 = document.createElement("li");
+    li_1.innerHTML = "первый элемент";
+
+    //prepend
+    list.prepend(li_1);
+
+    let li_2 = document.createElement("li");
+    li_2.innerHTML = "последний элемент";
+
+    //append
+    list.append(li_2);
+
+
+</script>
+</body>
+</html>

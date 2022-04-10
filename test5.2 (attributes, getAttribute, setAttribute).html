@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<div id="comm" defIt="value">Сообщения</div>
+<script>
+    let div = document.getElementById("comm");
+
+    // getAttribute
+    console.log(div.getAttribute("defIt"));
+
+    // setAttribute
+    div.setAttribute("defIt", "newvalue");
+    console.log(div.getAttribute("defIt"));
+
+    // attributes
+    for (attr of div.attributes) {
+        console.log(attr);
+    }
+</script>
+</body>
+</html>

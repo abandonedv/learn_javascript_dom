@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<div class="content-table">
+    <ul class="stars-list">
+        <li class="star">О сириусе</li>
+        <li class="star">Об альдебаране</li>
+        <li class="contact">Обратная связь</li>
+    </ul>
+</div>
+
+<script>
+    let list = document.querySelectorAll("ul.stars-list > li");
+    for (let item of list) {
+        // matches
+        if (item.matches("li.star")) console.log(item);
+    }
+</script>
+
+</body>
+</html>

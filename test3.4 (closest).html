@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Уроки по JavaScript</title>
+</head>
+<body>
+<div class="content-table">
+  <ul class="stars-list">
+    <li class="star">О сириусе</li>
+    <li class="star">Об альдебаране</li>
+    <li class="contact">Обратная связь</li>
+  </ul>
+</div>
+
+<script>
+  // closest
+
+  let li = document.querySelector("li.star");
+  console.log(li.closest(".stars-list"));
+  console.log(li.closest(".content-table"));
+  console.log(li.closest("h1"));
+</script>
+
+</body>
+</html>

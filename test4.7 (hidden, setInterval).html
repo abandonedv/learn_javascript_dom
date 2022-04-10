@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<p id="my_id">nooooooooooooo</p>
+
+<script>
+    let my_p = document.getElementById("my_id");
+
+    // hidden
+    my_p.hidden = true;
+    setInterval(() => my_p.hidden = !my_p.hidden, 500);
+</script>
+</body>
+</html>

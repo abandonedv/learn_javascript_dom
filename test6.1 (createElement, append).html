@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    .msg {
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        background: #204548;
+        padding: 5px;
+        border-radius: 5px;
+        color: #eee;
+        font-size: 24px;
+    }
+</style>
+<body>
+<script>
+    let div = document.createElement("div");
+    div.className = "msg";
+    div.innerHTML = "Важная информация!";
+
+    document.body.append(div);
+</script>
+</body>
+</html>

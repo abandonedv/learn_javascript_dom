@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<h1>Солнечная система</h1>
+<ul>
+    <li>Солнце</li>
+    <li>Меркурий</li>
+    <li>Венера</li>
+    <li>Земля</li>
+</ul>
+
+<script>
+    // insertAdjacentHTML - если хотим вставить html код
+    let list = document.querySelector("ul");
+    list.insertAdjacentHTML("beforebegin", "<p>Список планет");
+    list.insertAdjacentHTML("afterend", "<hr><p>Конец списка</p>");
+    list.insertAdjacentHTML("afterbegin", "<li>Солнце");
+    list.insertAdjacentHTML("beforeend", "<li>Марс");
+</script>
+</body>
+</html>
