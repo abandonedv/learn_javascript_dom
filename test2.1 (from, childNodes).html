@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<p>Абзац</p>
+<ul>
+    <li>
+        <b>
+            Элемент списка
+        </b>
+    </li>
+</ul>
+<script>
+    // childNodes
+    for (let child of document.body.childNodes){
+        console.log(child);
+    }
+
+    console.log("---")
+    // если хотим работать с коллекцией как с массивом используем from
+    // появятся все необходимые методы
+    let arr = Array.from(document.body.childNodes);
+    arr.forEach((elem) => console.log(elem));
+</script>
+
+</body>
+</html>
