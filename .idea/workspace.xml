@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a17e68fc-8bc4-4c64-85ea-5d24b675ac85" name="Changes" comment="2" />
+    <list default="true" id="a17e68fc-8bc4-4c64-85ea-5d24b675ac85" name="Changes" comment="3-6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,29 +46,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test6.10 (remove).html">
-    <configuration name="test6.10 (remove).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:59467/learn_javascript_dom/test6.10 (remove).html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.test8.3 (offset).html">
+    <configuration name="test7.3 (cssText).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test7.3 (cssText).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test6.6 (insertAdjacentText, insertAdjacentElement).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:59467/learn_javascript_dom/test6.6 (insertAdjacentText, insertAdjacentElement).html" useBuiltInWebServerPort="true">
+    <configuration name="test7.4 (getComputedStyle).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test7.4 (getComputedStyle).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test6.7 (remove).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:59467/learn_javascript_dom/test6.7 (remove).html" useBuiltInWebServerPort="true">
+    <configuration name="test8.1 (clientWidth, clientHeight).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test8.1 (clientWidth, clientHeight).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test6.8 (cloneNode).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:59467/learn_javascript_dom/test6.8 (cloneNode).html" useBuiltInWebServerPort="true">
+    <configuration name="test8.2 (scrollTop, scrollLeft, scrollWidth, scrollHeight).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test8.2 (scrollTop, scrollLeft, scrollWidth, scrollHeight).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test6.9 (DocumentFragment).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:59467/learn_javascript_dom/test6.9 (DocumentFragment).html" useBuiltInWebServerPort="true">
+    <configuration name="test8.3 (offset).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test8.3 (offset).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.test6.10 (remove).html" />
-        <item itemvalue="JavaScript Debug.test6.9 (DocumentFragment).html" />
-        <item itemvalue="JavaScript Debug.test6.8 (cloneNode).html" />
-        <item itemvalue="JavaScript Debug.test6.7 (remove).html" />
-        <item itemvalue="JavaScript Debug.test6.6 (insertAdjacentText, insertAdjacentElement).html" />
+        <item itemvalue="JavaScript Debug.test8.3 (offset).html" />
+        <item itemvalue="JavaScript Debug.test8.2 (scrollTop, scrollLeft, scrollWidth, scrollHeight).html" />
+        <item itemvalue="JavaScript Debug.test8.1 (clientWidth, clientHeight).html" />
+        <item itemvalue="JavaScript Debug.test7.4 (getComputedStyle).html" />
+        <item itemvalue="JavaScript Debug.test7.3 (cssText).html" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649602998821</updated>
-      <workItem from="1649603000018" duration="15996000" />
+      <workItem from="1649603000018" duration="16512000" />
+      <workItem from="1649633155951" duration="5039000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1649603030998</created>
@@ -87,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649603030998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3-6">
+      <created>1649627256924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649627256924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="3-6" />
   </component>
 </project>

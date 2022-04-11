@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    .message {
+        width: 200px;
+        padding: 10px;
+        background: #eee;
+    }
+
+    .message.ex {
+        color: #0000CC;
+    }
+</style>
+<body>
+<div class="msg">Важная информация!</div>
+<div style="position: absolute; top: 200px; left: 50%">
+    Информация 2
+</div>
+<script>
+    let elem = document.querySelector("div.msg");
+
+    // className
+    console.log(elem.className);
+    let elem2 = elem.nextSibling.nextSibling;
+
+    // style
+    console.log(elem2.style);
+
+    // можно менять
+    elem.className = "message";
+    console.log(elem.className);
+
+    // classList
+    elem.classList.add("ex");
+    console.log(elem.className);
+
+    // classList
+    elem.classList.remove( "ex");
+    console.log(elem.className);
+</script>
+</body>
+</html>

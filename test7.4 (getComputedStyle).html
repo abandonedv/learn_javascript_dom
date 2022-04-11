@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    .message {
+        position: absolute;
+        width: 200px;
+        padding: 10px;
+        background: #eee;
+    }
+
+    .message.ex {
+        color: #0000CC;
+    }
+</style>
+<body>
+<div class="message">Важная информация!</div>
+<script>
+    let elem = document.querySelector("div");
+
+    // getComputedStyle
+    let objStyles = getComputedStyle(elem);
+    console.log(objStyles.padding);
+</script>
+
+</body>
+</html>
