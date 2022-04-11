@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<p><a id="link" href="#" onclick="showMessage()">Нажать</a></p>
+<p><input type="button" value="Событие onclick"></p>
+<script>
+    let inp = document.querySelector("input");
+    inp.onclick = showMessage;
+    setTimeout(() => {
+        inp.onclick = null;
+        alert("onclick кнопка оннулированна")}, 5000)
+
+
+    function showMessage() {
+        alert("Hello!");
+    }
+</script>
+</body>
+</html>

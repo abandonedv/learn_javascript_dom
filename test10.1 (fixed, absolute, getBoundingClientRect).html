@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    #wnd {
+        z-index: 999;
+        position: fixed;
+        /*position: absolute;*/
+        width: 200px;
+        overflow: hidden;
+        background: #c7a0a0;
+        color: #eee;
+        left: 100px;
+        top: 50px;
+        text-align: center;
+    }
+</style>
+<body>
+<div id="wnd"><p>Элемент с позиционированием fixed</p></div>
+<ul style="font-size: 20px">
+    <li>offsetParent</li>
+    <li>offsetLeft</li>
+    <li>offsetTop</li>
+    <li>offsetWidth</li>
+    <li>offsetHeight</li>
+    <li>clientLeft</li>
+    <li>clientTop</li>
+    <li>clientWidth</li>
+    <li>clientHeight</li>
+    <li>scrollLeft</li>
+    <li>scrollTop</li>
+    <li>scrollWidth</li>
+    <li>scrollHeight</li>
+    <li>innerWidth</li>
+    <li>innerHeight</li>
+</ul>
+<script>
+    let wnd = document.getElementById("wnd");
+    let centerX = document.documentElement.clientWidth/2;
+    let centerY = document.documentElement.clientHeight/2;
+    wnd.style.left = centerX - wnd.offsetWidth/2 + "px";
+    wnd.style.top = centerY - wnd.offsetHeight/2 + "px";
+
+    let coords = wnd.getBoundingClientRect();
+    console.log(coords);
+</script>
+</body>
+</html>

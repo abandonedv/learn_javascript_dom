@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    #main_menu {
+        margin: 10px;
+        padding: 0;
+        list-style: none;
+        font-size: 24px;
+        width: 200px;
+        background: #eee;
+        cursor: pointer;
+    }
+
+    #main_menu li { margin-bottom: 10px; padding: 5px; }
+    #main_menu li:hover {background: #E8C5E7;}
+</style>
+<body>
+<h1>Делегирование событий</h1>
+<p><a href="test13.4%20(события%20по-умолчанию).html"
+      type="button"
+      onclick="return false;"
+      data-toggle-id="main_menu">
+    <!--Действие по-умолчанию отменено-->
+    Показать/Скрыть меню
+</a></p>
+<ul id="main_menu">
+    <li data-command="open">Открыть</li>
+    <li data-command="save">Сохранить</li>
+    <li data-command="draw">Рисовать</li>
+    <li data-command="edit">Редактировать</li>
+    <li data-command="settings">Настройки</li>
+</ul>
+<script>
+    document.addEventListener("contextmenu", function (event) {
+        if (event.defaultPrevented) return;
+        console.log("Контекстное меню документа");
+        event.preventDefault();
+    });
+
+    main_menu.oncontextmenu = function (event) {
+        console.log("Контекстное меню главного меню");
+        event.preventDefault();
+    }
+
+    document.addEventListener("click", function (event) {
+        let id = event.target.dataset.toggleId;
+        if(!id) return;
+        let elem = document.getElementById(id);
+        if(!elem) return;
+        elem.hidden = !elem.hidden;
+    })
+
+    menuActs = {
+        open() {
+            alert("open...");
+        },
+        save() {
+            alert("save...");
+        }
+    }
+
+    main_menu.addEventListener("click", function(event) {
+        let li = event.target.closest("li");
+        if (li == null) return;
+
+        let act = li.dataset.command;
+        if (act && menuActs[act] !== undefined) menuActs[act]();
+    });
+</script>
+</body>
+</html>

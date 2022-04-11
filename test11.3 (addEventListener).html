@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<!--<p><a id="link" href="#" onclick="showMessage(event)">Нажать</a></p>-->
+<p><input type="button" value="Событие onclick"></p>
+<script>
+    let inp = document.querySelector("input");
+    inp.addEventListener("click", showMessage);
+    inp.addEventListener("click", function(event) {
+        console.log(event.clientX, event.clientY);
+    });
+
+    setTimeout(() => {
+        inp.removeEventListener("click", showMessage);
+        alert("showMessage удален!")
+    }, 10000)
+
+
+    function showMessage(event) {
+        alert(event.currentTarget.tagName);
+    }
+</script>
+</body>
+</html>

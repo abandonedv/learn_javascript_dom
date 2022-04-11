@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a17e68fc-8bc4-4c64-85ea-5d24b675ac85" name="Changes" comment="7-8" />
+    <list default="true" id="a17e68fc-8bc4-4c64-85ea-5d24b675ac85" name="Changes" comment="9-13">
+      <change afterPath="$PROJECT_DIR$/test10.1 (fixed, absolute, getBoundingClientRect).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test11.1 (onclick).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test11.2 (event).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test11.3 (addEventListener).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test11.4 (transition).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test12.1 (всплытие событий, target).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test12.2 (stopPropagation).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test12.3 (погружение событий, eventPhase).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test13.1 (Делегирование событий).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test13.2 (Делегирование событий).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test13.3 (Делегирование событий).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test13.4 (еще один способ).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test13.4 (события по-умолчанию).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test13.5 (contextmenu).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.1 (scrollIntoView).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test9.2 (overflow).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,29 +62,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test8.3 (offset).html">
-    <configuration name="test7.3 (cssText).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test7.3 (cssText).html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.test13.5 (contextmenu).html">
+    <configuration name="test13.2 (Делегирование событий).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test13.2 (Делегирование событий).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test7.4 (getComputedStyle).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test7.4 (getComputedStyle).html" useBuiltInWebServerPort="true">
+    <configuration name="test13.3 (Делегирование событий).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test13.3 (Делегирование событий).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test8.1 (clientWidth, clientHeight).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test8.1 (clientWidth, clientHeight).html" useBuiltInWebServerPort="true">
+    <configuration name="test13.4 (еще один способ).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test13.4 (еще один способ).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test8.2 (scrollTop, scrollLeft, scrollWidth, scrollHeight).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test8.2 (scrollTop, scrollLeft, scrollWidth, scrollHeight).html" useBuiltInWebServerPort="true">
+    <configuration name="test13.4 (события по-умолчанию).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test13.4 (события по-умолчанию).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test8.3 (offset).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:57746/learn_javascript_dom/test8.3 (offset).html" useBuiltInWebServerPort="true">
+    <configuration name="test13.5 (contextmenu).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test13.5 (contextmenu).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.test8.3 (offset).html" />
-        <item itemvalue="JavaScript Debug.test8.2 (scrollTop, scrollLeft, scrollWidth, scrollHeight).html" />
-        <item itemvalue="JavaScript Debug.test8.1 (clientWidth, clientHeight).html" />
-        <item itemvalue="JavaScript Debug.test7.4 (getComputedStyle).html" />
-        <item itemvalue="JavaScript Debug.test7.3 (cssText).html" />
+        <item itemvalue="JavaScript Debug.test13.5 (contextmenu).html" />
+        <item itemvalue="JavaScript Debug.test13.4 (еще один способ).html" />
+        <item itemvalue="JavaScript Debug.test13.4 (события по-умолчанию).html" />
+        <item itemvalue="JavaScript Debug.test13.3 (Делегирование событий).html" />
+        <item itemvalue="JavaScript Debug.test13.2 (Делегирование событий).html" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +98,7 @@
       <updated>1649602998821</updated>
       <workItem from="1649603000018" duration="16512000" />
       <workItem from="1649633155951" duration="5332000" />
+      <workItem from="1649678748996" duration="15488000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1649603030998</created>
@@ -102,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649638636427</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7-8">
+      <created>1649678766713</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649678766713</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +149,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="3-6" />
     <MESSAGE value="7-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-8" />
+    <MESSAGE value="9-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="9-13" />
   </component>
 </project>

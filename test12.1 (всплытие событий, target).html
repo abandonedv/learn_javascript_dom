@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    body { font-size: 20px; }
+    #first {background: #CC4444; width: 100px; padding: 10px}
+    #second {background: #00CC00; padding: 10px}
+    #third {background: #4444CC; padding: 0 10px 0 10px}
+</style>
+<body>
+<div id="first" onclick="showTag(event)">div
+    <p id = "second" onclick="showTag(event)">p
+        <span id="third" onclick="showTag(event)">span</span>
+    </p>
+</div>
+<script>
+    // target
+    function showTag(event) {
+        console.log(event.currentTarget.tagName +
+        " от " + event.target.tagName);
+    }
+</script>
+</body>
+</html>
