@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    .parent {
+        background: #CC4444;
+        padding: 10px 0 10px 10px;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .child {
+        background: #00CC00;
+        padding: 10px;
+    }
+</style>
+<body>
+<div class="parent">DIV
+    <p class="child">P</p>
+</div>
+<script>
+    let div = document.querySelector("div.parent");
+    div.addEventListener("mouseenter", showInfoEnter);
+    div.addEventListener("mouseleave", showInfoLeave);
+
+    function showInfoEnter(event) {
+        let prop = "target = " + event.target.tagName;
+        if(event.relatedTarget != null)
+            prop += ", relatedTarget = " + event.relatedTarget.tagName;
+
+        let name = event.currentTarget.tagName;
+        console.log(name + " mouseenter: " + prop);
+    }
+
+    function showInfoLeave(event) {
+        let prop = "target = " + event.target.tagName;
+        if(event.relatedTarget != null)
+            prop += ", relatedTarget = " + event.relatedTarget.tagName;
+
+        let name = event.currentTarget.tagName;
+        console.log(name + " mouseleave: " + prop);
+    }
+</script>
+</body>
+</html>

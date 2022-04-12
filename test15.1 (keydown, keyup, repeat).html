@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<input id = "inp"
+       onkeydown="keyHandler(event)"
+       onkeyup="keyHandler(event)">
+<script>
+    function keyHandler(event) {
+        console.log(event.type);
+        console.log("repeat: " + event.repeat);
+    }
+</script>
+</body>
+</html>

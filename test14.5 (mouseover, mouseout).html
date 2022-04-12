@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<style>
+    .parent {
+        background: #CC4444;
+        padding: 10px 0 10px 10px;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .child {
+        background: #00CC00;
+        padding: 10px;
+    }
+</style>
+<body>
+<div class="parent">DIV
+    <p class="child">P</p>
+</div>
+<script>
+    document.addEventListener("mouseover", (event) => {
+        let prop = "target = " + event.target.tagName;
+        if(event.relatedTarget != null)
+            prop += ", relatedTarget = " + event.relatedTarget.tagName;
+
+        console.log("mouseover: " + prop);
+    });
+
+    document.addEventListener("mouseout", (event) => {
+        let prop = "target = " + event.target.tagName;
+        if(event.relatedTarget != null)
+            prop += ", relatedTarget = " + event.relatedTarget.tagName;
+
+        console.log("mouseout: " + prop);
+    });
+</script>
+</body>
+</html>
