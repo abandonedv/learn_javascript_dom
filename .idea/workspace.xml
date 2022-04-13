@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a17e68fc-8bc4-4c64-85ea-5d24b675ac85" name="Changes" comment="9-13">
+    <list default="true" id="a17e68fc-8bc4-4c64-85ea-5d24b675ac85" name="Changes" comment="14-15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test13.1 (Делегирование событий).html" beforeDir="false" afterPath="$PROJECT_DIR$/test13.1 (Делегирование событий).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test15.3 (scroll).html" beforeDir="false" afterPath="$PROJECT_DIR$/test15.3 (scroll).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test7.1 (className, style, classList).html" beforeDir="false" afterPath="$PROJECT_DIR$/test7.1 (className, style, classList).html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +48,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test15.3 (scroll).html">
-    <configuration name="test14.5 (mouseover, mouseout).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test14.5 (mouseover, mouseout).html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.test20.5 (async).html">
+    <configuration name="test19.4 (readyState).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:64881/learn_javascript_dom/test19.4 (readyState).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test14.6 (mouseenter, mouseout).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test14.6 (mouseenter, mouseout).html" useBuiltInWebServerPort="true">
+    <configuration name="test20.1 (onload).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:64881/learn_javascript_dom/test20.1 (onload).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test15.1 (keydown, keyup, repeat).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test15.1 (keydown, keyup, repeat).html" useBuiltInWebServerPort="true">
+    <configuration name="test20.3 (error).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:64881/learn_javascript_dom/test20.3 (error).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test15.2 (key, code).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test15.2 (key, code).html" useBuiltInWebServerPort="true">
+    <configuration name="test20.4 (defer).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:62407/learn_javascript_dom/test20.4 (defer).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="test15.3 (scroll).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/learn_javascript_dom/test15.3 (scroll).html" useBuiltInWebServerPort="true">
+    <configuration name="test20.5 (async).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:62407/learn_javascript_dom/test20.5 (async).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.test15.3 (scroll).html" />
-        <item itemvalue="JavaScript Debug.test15.2 (key, code).html" />
-        <item itemvalue="JavaScript Debug.test15.1 (keydown, keyup, repeat).html" />
-        <item itemvalue="JavaScript Debug.test14.6 (mouseenter, mouseout).html" />
-        <item itemvalue="JavaScript Debug.test14.5 (mouseover, mouseout).html" />
+        <item itemvalue="JavaScript Debug.test20.5 (async).html" />
+        <item itemvalue="JavaScript Debug.test20.4 (defer).html" />
+        <item itemvalue="JavaScript Debug.test20.3 (error).html" />
+        <item itemvalue="JavaScript Debug.test20.1 (onload).html" />
+        <item itemvalue="JavaScript Debug.test19.4 (readyState).html" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +86,8 @@
       <workItem from="1649633155951" duration="5332000" />
       <workItem from="1649678748996" duration="16120000" />
       <workItem from="1649710028939" duration="6584000" />
+      <workItem from="1649783908262" duration="14134000" />
+      <workItem from="1649847886610" duration="1625000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1649603030998</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649698272582</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="14-15">
+      <created>1649783946430</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649783946430</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +153,7 @@
     <MESSAGE value="3-6" />
     <MESSAGE value="7-8" />
     <MESSAGE value="9-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="9-13" />
+    <MESSAGE value="14-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-15" />
   </component>
 </project>

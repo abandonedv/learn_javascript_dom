@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+<form name="reg">
+    <p>
+        <input name="user" value="">
+    </p>
+    <p>
+        <input name="sex" type="radio" checked>M
+        <input name="sex" type="radio" checked>Ж
+    </p>
+    <p>Город:
+        <select name="city">
+            <option>Москва</option>
+            <option>Санкт-Петербург</option>
+            <option>Тверь</option>
+        </select>
+    </p>
+    <p>Согласие:
+        <input name="agree" type="checkbox">
+    </p>
+    <p>
+        <textarea name="about" rows="10" cols="30">О себе</textarea>
+    </p>
+    <p>
+        <input type="submit" name="submit">
+    </p>
+</form>
+<script>
+    let frm = document.forms[0];
+
+    frm.user.oninput = function () {
+        console.log(frm.user.value);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Уроки по JavaScript</title>
+</head>
+<body>
+    <p><img id="image" src="test19%20(события%20при%20загрузке%20документа%20и%20ресурсов).png"> </p>
+</body>
+<script>
+    image.onload = function (event) {
+        console.log(`Изображение ${image.offsetWidth}*${image.offsetHeight}`);
+    }
+</script>
+</html>
